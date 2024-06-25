@@ -8,6 +8,10 @@ body{
     padding-top: 55px;
 }
 
+.navbar{
+    backdrop-filter: blur(20px);
+}
+
 .banner-background{
     background-image: url("./images/unversity-student.jpg");
     background-position: center;
@@ -19,4 +23,29 @@ body{
 
 .banner-content{
     margin-top: 20%;
+}
+
+.macbook-background{
+    background-image: url("./images/macbook-air.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#ipad-air{
+    background-image: url("./images/ipad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#macbook-pro{
+    background-image: url("./images/macbook-pro-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
