@@ -49,3 +49,33 @@ body{
     background-size: cover;
     height: 500px;
 }
+#ipad-pro{
+    background-image: url("./images/ipad-dark.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#iphone{
+    background-image: url("./images/iphone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#app-store{
+    background-image: url("./images/app-store.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#trade-in{
+    background-image: url("./images/trade-in.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
