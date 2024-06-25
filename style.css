@@ -9,7 +9,21 @@ body{
 }
 
 .navbar{
-    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.816);
+    backdrop-filter: blur(50px);
+}
+
+.bubble{
+    background-image: url("./images/Screenshot\ 2024-06-25\ 230725.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;  
+}
+
+.bubble-content{
+    margin-top: 25%;
 }
 
 .banner-background{
