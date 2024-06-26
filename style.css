@@ -97,3 +97,11 @@ body{
 .carousel-item{
     height: 80vh;
 }
+
+footer a{
+    text-decoration: none;
+}
+
+footer{
+    font-size: small;
+}
