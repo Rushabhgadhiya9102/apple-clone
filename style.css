@@ -93,3 +93,7 @@ body{
     background-size: cover;
     height: 500px;
 }
+
+.carousel-item{
+    height: 80vh;
+}
