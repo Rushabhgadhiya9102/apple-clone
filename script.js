@@ -1,4 +1,4 @@
- $('#store').hide()
+ $('#home-page').hide()
 
  $(".nav-link").on("click", function () {
     $("#home-page,#store").hide();
