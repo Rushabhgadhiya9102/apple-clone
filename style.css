@@ -1,107 +1,134 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-body{
-    padding-top: 55px;
+body {
+  padding-top: 55px;
 }
 
-.navbar{
-    background: rgba(255, 255, 255, 0.816);
-    backdrop-filter: blur(50px);
+.navbar {
+  background: rgba(255, 255, 255, 0.816);
+  backdrop-filter: blur(50px);
 }
 
-.bubble{
-    background-image: url("./images/Screenshot\ 2024-06-25\ 230725.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;  
+.bubble {
+  background-image: url("./images/Screenshot\ 2024-06-25\ 230725.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
 }
 
-.bubble-content{
-    margin-top: 25%;
+.bubble-content {
+  margin-top: 25%;
 }
 
-.banner-background{
-    background-image: url("./images/unversity-student.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
+.banner-background {
+  background-image: url("./images/unversity-student.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
 }
 
-.banner-content{
-    margin-top: 20%;
+.banner-content {
+  margin-top: 20%;
 }
 
-.macbook-background{
-    background-image: url("./images/macbook-air.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+.macbook-background {
+  background-image: url("./images/macbook-air.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
-#ipad-air{
-    background-image: url("./images/ipad.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+#ipad-air {
+  background-image: url("./images/ipad.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 
-#macbook-pro{
-    background-image: url("./images/macbook-pro-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+#macbook-pro {
+  background-image: url("./images/macbook-pro-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
-#ipad-pro{
-    background-image: url("./images/ipad-dark.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+#ipad-pro {
+  background-image: url("./images/ipad-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
-#iphone{
-    background-image: url("./images/iphone.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-}
-
-#app-store{
-    background-image: url("./images/app-store.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+#iphone {
+  background-image: url("./images/iphone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 
-#trade-in{
-    background-image: url("./images/trade-in.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+#app-store {
+  background-image: url("./images/app-store.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 
-.carousel-item{
-    height: 80vh;
+#trade-in {
+  background-image: url("./images/trade-in.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 
-footer a{
-    text-decoration: none;
+.carousel-item {
+  height: 80vh;
 }
 
-footer{
-    font-size: small;
+footer a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: small;
+}
+
+#card {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #000;
+}
+
+#store-card-row {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+#store-card-row .card {
+  width: 400px;
+  height: 500px;
+  padding: 0;
+}
+
+#store-card-row img {
+  width: 400px;
+  height: 500px;
 }
