@@ -106,19 +106,14 @@ footer {
   font-size: small;
 }
 
-#card {
-  width: 400px;
-  height: 500px;
-  border: 1px solid #000;
-}
-
 #store-card-row {
+height: 600px;
   align-items: stretch;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: auto;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   scrollbar-width: none;
 }
 
@@ -126,9 +121,13 @@ footer {
   width: 400px;
   height: 500px;
   padding: 0;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 #store-card-row img {
   width: 400px;
   height: 500px;
+  border-radius: 20px;
 }
