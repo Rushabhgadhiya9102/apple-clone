@@ -148,7 +148,7 @@ footer {
   border-radius: 20px;
 }
 
-#store-card-row-3 {
+#store-card-row-3{
   height: 350px;
   align-items: stretch;
   display: flex;
@@ -174,4 +174,21 @@ footer {
   border: 0;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#main-card-row{
+  height: 100px;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none
+}
+
+#main-card-row .card{
+  width: 130px;
+  height: 80px;
+  border: 0;
 }
