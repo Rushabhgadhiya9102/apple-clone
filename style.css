@@ -236,7 +236,7 @@ footer {
   scrollbar-width: none
 }
 
-#mac-card-row-2 .mac-modal,.card{
+#mac-card-row-2 .mac-modal{
   width: 400px;
   height: 700px;
 }
