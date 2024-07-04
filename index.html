@@ -1,1420 +1,2705 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!---------------- C D N - L I N K S --------------->
 
-<head>
-  <!---------------- C D N - L I N K S --------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
 
-  <link rel="stylesheet" href="./style.css" />
+    <!---------------- C D N - L I N K S - E N D --------------->
 
-  <!---------------- C D N - L I N K S - E N D --------------->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
+  <body>
+    <!------------------- N A V I G A T I O N - B A R ------------------------->
 
-<body>
-  <!------------------- N A V I G A T I O N - B A R ------------------------->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-auto d-flex align-items-center gap-3 mb-lg-0 text-capitalize"
+          >
+            <a class="nav-link active" href="#home-page"
+              ><i class="bx bxl-apple fs-4"></i
+            ></a>
 
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto d-flex align-items-center gap-3 mb-lg-0 text-capitalize">
-
-          <a class="nav-link active" href="#home-page"><i class="bx bxl-apple fs-4"></i></a>
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#store">store</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#mac-section">mac</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ipad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">iphone</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">watch</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">airpods</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">tv&home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">entertainment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">accessories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">support</a>
-          </li>
-          <i class="bx bx-search-alt-2 fs-4"></i>
-          <i class="bx bx-shopping-bag fs-4"></i>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!------------------- N A V I G A T I O N - B A R - E N D ------------------------->
-
-  <!---------------------------- B A N N E R - S E C T I O N ------------------------->
-
-  <div id="home-page">
-
-    <div class="container-fluid px-0 my-3">
-      <div class="card border-0 ai-intelligence">
-        <img src="./images/ai-intelligence.jpg" width="100%" height="100%" class="card-img" alt="...">
-        <div class="card-img-overlay text-center text-capitalize">
-          <h1 class="card-title mt-5 ">apple intelligence</h1>
-          <h5 class="card-text">ai for the rest of us.</h5>
-          <p class="card-text">coming in beta in US english later this year</p>
-          <button type="button" class="btn btn-primary rounded-pill text-capitalize">learn more</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill text-capitalize">watch the film</button>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#store">store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mac-section">mac</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ipad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">iphone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">watch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">airpods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">tv&home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">support</a>
+            </li>
+            <i class="bx bx-search-alt-2 fs-4"></i>
+            <i class="bx bx-shopping-bag fs-4"></i>
+          </ul>
         </div>
       </div>
-    </div>
-
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 px-0">
-          <div class="bubble d-flex justify-content-center align-items-center text-center text-light text-capitalize">
-            <div class="bubble-content">
-              <button type="button" class="btn btn-outline-primary rounded-pill text-capitalize px-4">
-                shop
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!---------------------------- B A N N E R - S E C T I O N - E N D ------------------------->
-
-    <!--------------------------- S H O P P I N G - S E C T I O N ----------------------------------->
-
-    <div class="container-fluid my-2">
-
-      <!------------------ R O W - 1 ----------------->
-      <div class="row m-auto g-3">
-
-        <div class="col-lg-6">
-          <div
-            class="banner-background d-flex justify-content-center align-items-center text-center text-light text-capitalize">
-            <div class="banner-content">
-              <h1>university students</h1>
-              <h3>go further with mac</h3>
-              <button type="button" class="btn btn-primary rounded-pill text-capitalize">
-                learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="macbook-background d-flex justify-content-center pt-5">
-            <div class="macbook-content text-capitalize text-center">
-              <h1>MacBook air</h1>
-              <h3>supercharged by m3.</h3>
-              <button type="button" class="btn btn-primary rounded-pill text-capitalize">
-                learn more
-              </button>
-              <button type="button" class="btn btn-outline-primary rounded-pill text-capitalize px-3">buy</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="content w-100 d-flex justify-content-center" id="ipad-air">
-            <div class="information mt-4 text-center text-capitalize">
-              <h1>ipad <span>air</span></h1>
-              <h3>two sizes.faster chip. does it all.</h3>
-              <button type="button" class="btn btn-dark rounded-pill text-capitalize">
-                learn more
-              </button>
-              <button type="button" class="btn btn-outline-dark rounded-pill text-capitalize px-3">buy</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="content w-100 d-flex justify-content-center" id="macbook-pro">
-            <div class="information mt-4 text-center text-capitalize">
-              <h1>macbook pro</h1>
-              <h3>mind-blowing. head-turning.</h3>
-              <button type="button" class="btn btn-primary rounded-pill text-capitalize">
-                learn more
-              </button>
-              <button type="button" class="btn btn-outline-primary rounded-pill text-capitalize px-3">buy</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!------------------- R O W - 2 -------------------->
-
-      <div class="row m-auto g-3">
-
-        <div class="col-lg-6">
-          <div class="content w-100 d-flex justify-content-center" id="ipad-pro">
-            <div class="information mt-4 text-center text-capitalize text-light">
-              <h1>ipad pro</h1>
-              <h3>unbelievably thin. increadibly powerful.</h3>
-              <button type="button" class="btn btn-primary rounded-pill text-capitalize">
-                learn more
-              </button>
-              <button type="button" class="btn btn-outline-primary rounded-pill text-capitalize px-3">buy</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="content w-100 d-flex justify-content-center" id="iphone">
-            <div class="information mt-4 text-center text-capitalize text-light">
-              <h1>iphone 15 pro</h1>
-              <h3>mind-blowing. head-turning.</h3>
-              <button type="button" class="btn btn-primary rounded-pill text-capitalize">
-                learn more
-              </button>
-              <button type="button" class="btn btn-outline-primary rounded-pill text-capitalize px-3">buy</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!------------------ R O W - 3 ----------------->
-
-      <div class="row m-auto g-3">
-
-        <div class="col-lg-6">
-          <div class="content w-100 d-flex justify-content-center" id="app-store">
-            <div class="information mt-4 text-center text-capitalize text-light">
-              <h1>ipad <span>air</span></h1>
-              <h3>two sizes.faster chip. does it all.</h3>
-              <button type="button" class="btn btn-light rounded-pill text-capitalize">
-                learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="content w-100 d-flex justify-content-center" id="trade-in">
-            <div class="information mt-4 text-center text-capitalize">
-              <h1>macbook pro</h1>
-              <h3>mind-blowing. head-turning.</h3>
-              <button type="button" class="btn btn-primary rounded-pill text-capitalize">
-                get your estimate
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--------------------------- S H O P P I N G - S E C T I O N - E N D ----------------------------------->
-
-    <!------------------------------- C A R O U S E L S -------------------------------------->
-
-    <div id="carouselExampleFade" class="carousel slide carousel-fade m-5" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./images/kungfupanda-4.webp" width="100%" height="100%" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/8c19cf5f9e6bb86a9d35d7fb6d0852c5.png" width="100%" height="100%" class="d-block w-100"
-            alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/EL-MEDIADOR-carat-1.jpg" width="100%" height="100%" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-
-  <!-------------------------------- C A R O U S E L - E N D ------------------------------->
-
-  <!-------------------------------------------------- S T O R E - S E C T I O N ---------------------------------------------->
-
-  <div id="store">
-
-    <div class="container">
-      <div class="row py-5">
-        <div class="col-lg-6">
-          <h1 class="text-capitalize">store.<span class="text-secondary">the best way to buy the products you
-              love.</span></h1>
-        </div>
-        <div class="col-lg-6 d-flex align-items-end flex-column">
-
-          <!--------- C A R D - 1 ---------->
-          <div class="text-capitalize d-flex">
-            <img src="./images/chat-specialist.jpeg" width="50px" height="50px" class="mx-2" alt="">
-            <span>
-              <p>need shopping help?
-                <br>
-                <a href="#">ask a specialist</a>
-              </p>
-            </span>
-          </div>
-
-          <!----------- C A R D - 2 --------->
-          <div class="text-capitalize d-flex">
-            <img src="./images/apple-location-icon.webp" width="50px" height="50px" class="mx-2" alt="">
-            <span>
-              <p>visit an apple store.
-                <br>
-                <a href="#">find one near you</a>
-              </p>
-            </span>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-
-    <div class="container-fluid my-5">
-      <div class="row mx-auto" id="main-card-row">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card  ms-5 me-3">
-          <img src="./images/mav-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">mac</p>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card  mx-3">
-          <img src=".//images/iphone-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">iphone</p>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/ipad-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">ipad</p>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/watch-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">apple watch</p>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/airpods-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">airpods</p>
-        </div>
-
-        <!------------- C A R D - 6 ---------------->
-
-        <div class="card  mx-3">
-          <img src="./images/airtag-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">airtag</p>
-        </div>
-
-        <!------------- C A R D - 7 ---------------->
-
-        <div class="card  mx-3">
-          <img src="./images/apple-tv-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">apple tv 4k</p>
-        </div>
-
-        <!------------- C A R D - 8 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/homepod-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">homepod</p>
-        </div>
-
-        <!------------- C A R D - 9 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/accessories-store.png" width="100%" height="100%" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">accessories</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-lg-12 text-capitalize">
-          <h3>the latest. <span class="text-secondary">take a look at what's new right now</span></h3>
-        </div>
-      </div>
-    </div>
-
-    <!-------------------------------S T O R E - C A R O U S E L  ------------------------------->
-
-    <!--------------------- C A R O U S E L - 2 ------------------>
-
-    <div class="container-fluid my-5">
-      <div class="row px-5" id="store-card-row">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card text-light ms-5 me-3">
-          <img src="./images/carousel-iphone.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">iphone 15 pro</h5>
-            <h2 class="card-text text-capitalize">titanium</h2>
-            <h6 class="card-text">From ₹5621.00/mo. for 24 mo. with No Cost EMI§ or ₹134900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card text-light mx-3">
-          <img src=".//images/carousel-ipad.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">ipad pro</h5>
-            <h2 class="card-text text-capitalize">thinpossible.</h2>
-            <h6 class="card-text">From ₹99900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carousel-mac-or-ipad.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-danger text-uppercase">limited-time-offer</h5>
-            <h2 class="card-text text-capitalize">save on mac or ipad for university.</h2>
-            <h6 class="card-text">Plus get AirPods with Mac,◊◊◊ <br> Apple Pencil with iPad,◊◊◊ <br> 20% off
-              AppleCare+,°°° and more.</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carousel-4.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">macbook air</h5>
-            <h2 class="card-text text-capitalize">designed to go places.</h2>
-            <h6 class="card-text">From ₹99900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carouusel-5.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">ipad air</h5>
-            <h2 class="card-text text-capitalize">fresh air.</h2>
-            <h6 class="card-text">From ₹59900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 6 ---------------->
-
-        <div class="card text-light mx-3">
-          <img src="./images/carousel-6.png" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">apple pencil pro</h5>
-            <h2 class="card-text text-capitalize">engineered for limitless creativity.</h2>
-            <h6 class="card-text">₹11900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 7 ---------------->
-
-        <div class="card text-light mx-3">
-          <img src="./images/carousel-7.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">apple watch series 9</h5>
-            <h2 class="card-text text-capitalize">smarter.brighter.mightier.</h2>
-            <h6 class="card-text">From ₹41900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 8 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carousel-8.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">iphone 15</h5>
-            <h2 class="card-text text-capitalize">newphoria.</h2>
-            <h6 class="card-text">From ₹3329.00/mo. for 24 mo. with No Cost EMI§ or ₹79900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 9 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carousel-9.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">apple watch ultra 2</h5>
-            <h2 class="card-text text-capitalize">next-level adventure.</h2>
-            <h6 class="card-text">From ₹89900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 10 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carousel-10.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">macbook pro</h5>
-            <h2 class="card-text text-capitalize">mind-blowing.<br>head-turning</h2>
-            <h6 class="card-text">From ₹169900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 11 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carousel-11.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">apple watch se</h5>
-            <h2 class="card-text text-capitalize">a great deal to love.</h2>
-            <h6 class="card-text">From ₹29900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 12 ---------------->
-
-        <div class="card text-light ms-3 me-5">
-          <img src="./images/carousel-12.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">pride edition <br> braided solo loop</h5>
-            <h2 class="card-text text-capitalize">let your light shine.</h2>
-            <h6 class="card-text">From ₹9500.00‡</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--------------------- C A R O U S E L - 2 ------------------>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-capitalize">
-          <h3>help is here.<span class="text-secondary">whenever and however you need it.</span></h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid my-5">
-      <div class="row px-5" id="store-card-row-2">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card  ms-5 me-3">
-          <img src="./images/helper-1.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <p class="card-title text-uppercase text-secondary">apple specialist</p>
-            <h2 class="card-text text-capitalize">shop one on one with a specialist online.</h2>
-          </div>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card text-light mx-3" style="width: 400px;">
-          <img src=".//images/helper-2.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <p class="card-title text-uppercase text-secondary">business</p>
-            <h2 class="card-text text-capitalize">From enterprise to small business, we’ll work with you.1</h2>
-          </div>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/helper-3.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <p class="card-title text-secondary text-uppercase">today at apple</p>
-            <h2 class="card-text text-capitalize">gear up for university.</h2>
-            <h6 class="card-text">Go back to school with Mac and iPad. Join free sessions at the Apple Store.</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/helper-4.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h2 class="card-title text-uppercase">get help srtting up your new device in a free online personal session.
-            </h2>
-          </div>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card ms-3 me-5">
-          <img src="./images/helper-5.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <p class="card-title text-uppercase text-secondary">watch and learn</p>
-            <h2 class="card-text text-capitalize">need support? our teams are here for you.</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--------------------- C A R O U S E L - 3 ------------------>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-capitalize">
-          <h3>The Apple Store difference.<span class="text-secondary"> Even more reasons to shop with us.</span></h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid my-5">
-      <div class="row px-5 text-capitalize" id="store-card-row-3">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card ms-5 me-3" style="width: 18rem;">
-          <div class="card-body">
-            <i class='bx bx-devices text-primary fs-1'></i>
-            <h4 class="card-subtitle mb-2"><span class="text-primary">exchange your smartphone,</span> get ₹16000.00 –
-              ₹62015.00 in credit towards a new one.*</h4>
-          </div>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card mx-3" style="width: 18rem;">
-          <div class="card-body"
-            style="background-image: linear-gradient(to right, yellow, orange, rgb(235, 64, 235), lightblue, lightseagreen); background-clip: text; -webkit-text-fill-color: transparent;">
-            <i class='bx bxl-apple text-primary fs-1'></i>
-            <h4 class="card-subtitle mb-2">customise your mac</h4>
-          </div>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3" style="width: 18rem;">
-          <div class="card-body">
-            <i class='bx bx-smile fs-1' style="color: blueviolet;"></i>
-            <h4 class="card-subtitle mb-2">make them yours.<span style="color: blueviolet;">Engrave a mix of emoji,
-                names and numbers for free.</span></h4>
-          </div>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3" style="width: 18rem;">
-          <div class="card-body">
-            <i class='bx bx-credit-card text-success fs-1'></i>
-            <h4 class="card-subtitle mb-2"><span class="text-success">flexible ways to pay.</span>plus no Cost EMI.</h4>
-          </div>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3" style="width: 18rem;">
-          <div class="card-body">
-            <i class='bx bxs-truck text-success fs-1'></i>
-            <h4 class="card-subtitle mb-2"><span class="text-success">enjoy free delivery, oreasy pickup </span>from an
-              apple store.</h4>
-          </div>
-        </div>
-
-        <!------------- C A R D - 6 ----------------->
-
-        <div class="card ms-3 me-5" style="width: 18rem;">
-          <div class="card-body">
-            <i class='bx bx-devices text-primary fs-1'></i>
-            <h4 class="card-subtitle mb-2"><span class="text-primary">trade in your eligible mac, apple watch or ipad
-                for instant credit.</span> in-store only.</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!---------------- C A R O U S E L - 4 --------------->
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-capitalize">
-          <h3>accessories.<span class="text-secondary">Essentials that pair perfectly with your favourite
-              devices.</span></h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid my-5">
-      <div class="row px-5" id="store-card-row-4">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card  ms-5 me-3" style="width: 400px;">
-          <img src="./images/crouesel-accessories-1.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h3 class="card-title text-capitalize">in with the new.</h3>
-            <p class="card-text text-capitalize">discover fresh colors and new features for your favourite accessories.
+    </nav>
+
+    <!------------------- N A V I G A T I O N - B A R - E N D ------------------------->
+
+    <!---------------------------- B A N N E R - S E C T I O N ------------------------->
+
+    <div id="home-page">
+      <div class="container-fluid px-0 my-3">
+        <div class="card border-0 ai-intelligence">
+          <img
+            src="./images/ai-intelligence.jpg"
+            width="100%"
+            height="100%"
+            class="card-img"
+            alt="..."
+          />
+          <div class="card-img-overlay text-center text-capitalize">
+            <h1 class="card-title mt-5">apple intelligence</h1>
+            <h5 class="card-text">ai for the rest of us.</h5>
+            <p class="card-text">
+              coming in beta in US english later this year
             </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card mx-3">
-          <img src=".//images/crousel-accessories-2.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <p class="card-title text-capitalize text-danger">new</p>
-            <h5 class="card-text text-capitalize">45mm pride edition braided solo loop - size 6</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹9500.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessoires-3.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <p class="card-title text-capitalize text-danger">new</p>
-            <h5 class="card-text text-capitalize">apple pencli pro</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹11900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessories-4.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <p class="card-title text-capitalize text-danger">new</p>
-            <h5 class="card-text text-capitalize">magic keyboard for ipad pro 13" (m4) - US english - black</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹33900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessories-5.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">iphone 15 pro finewoven case with magsafe - evergreen</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹5900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 6 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessories-6.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">iphone finewoven wallet with magsafe - pacific blue</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹5900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 7 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessories-7.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">45mm soft mint sport loop</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹4500.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 8 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessories-8.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">iphone 15 silicon case with magsafe - light blue</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹9500.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 9 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-accessories-9.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">45mm sunshine sport band - M/l</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹9500.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 10 ---------------->
-
-        <div class="card ms-3 me-5" style="width: 400px;">
-          <img src="./images/crousel-accessories-10.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <p class="card-title text-uppercase text-secondary">watch and learn</p>
-            <h2 class="card-text text-capitalize">need support? our teams are here for you.</h2>
+            <button
+              type="button"
+              class="btn btn-primary rounded-pill text-capitalize"
+            >
+              learn more
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-primary rounded-pill text-capitalize"
+            >
+              watch the film
+            </button>
           </div>
         </div>
       </div>
-    </div>
 
-    <!------------------ C A R O U S E L -5 ------------------>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-capitalize">
-          <h3>Loud and clear.<span class="text-secondary"> Unparalleled choices for rich, high-quality sound.</span>
-          </h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid my-5">
-      <div class="row px-5" id="store-card-row-4">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card  ms-5 me-3" style="width: 400px;">
-          <img src="./images/carousel-music-1.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h3 class="card-title text-capitalize">get 6 months of apple music free</h3>
-            <p class="card-text text-capitalize">included with your homepod, airpods or selected beats products.</p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card mx-3">
-          <img src=".//images/craousel-music-2.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <p class="card-title text-capitalize text-danger">Free Engraving</p>
-            <h5 class="card-text text-capitalize">AirPods Pro (2nd Generation) with MagSafe Charging Case (USB‑C)</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹24900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-music-3.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">homepod - midnight</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹32900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-music-4.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <p class="card-title text-capitalize text-danger">new</p>
-            <h5 class="card-text text-capitalize">airpods max - silver</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹59900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-music-5.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <h5 class="card-text text-capitalize">hellopod mini - yellow</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹10900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 6 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/craousel-music-6.jpeg" width="100%" height="300px" class="card-img" alt="...">
-          <div class="card-img-overlay d-flex justify-content-end flex-column my-3">
-            <p class="card-title text-capitalize text-danger">Free Engraving</p>
-            <h5 class="card-text text-capitalize">AirPods Pro (3nd Generation) with MagSafe Charging Case (USB‑C)</h5>
-            <p class="card-text text-capitalize text-secondary">MRP ₹19900.00 (incl. of all taxes) </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!------------------ C A R O U S E L - 6 ------------------>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-capitalize">
-          <h3> The Apple experience.<span class="text-secondary"> Do even more with Apple products and services.</span>
-          </h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid my-5">
-      <div class="row px-5" id="store-card-row-2">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card  ms-5 me-3">
-          <img src="./images/crousel-product-and-services-1.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay text-light">
-            <p class="card-title text-uppercase">apple tv+</p>
-            <h2 class="card-text text-capitalize">get 3 months of <br> apple tv+ free when <br> you buy an apple device.
-            </h2>
-          </div>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card mx-3">
-          <img src=".//images/crousel-product-and-services-2.jpeg" width="100%" height="100%" class="card-img"
-            alt="...">
-          <div class="card-img-overlay">
-            <h2 class="card-text text-capitalize">for apple services. one easy subscription.</h2>
-          </div>
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/crousel-product-and-services-3.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h2 class="card-text text-capitalize">we've got you covered.</h2>
-            <p class="card-text">AppleCare+ now comes with unlimited repairs for accidental damage protection.</p>
-          </div>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card ms-3 me-5">
-          <img src="./images/crousel-product-and-services-4.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <p class="card-title text-uppercase">home</p>
-            <h2 class="card-title text-uppercase">see how one app can control your entire home.</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!----------- L A S T - C A R O U S E L ---------->
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-capitalize">
-          <h3> The Apple experience.<span class="text-secondary"> Do even more with Apple products and services.</span>
-          </h3>
-        </div>
-      </div>
-
-
-      <div class="card rounded-4 overflow-hidden my-5" id="special-store-card">
-        <img src="./images/special-store.jpeg" width="100%" height="100%" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <p class="card-title text-uppercase">education</p>
-          <h4 class="card-title text-uppercase">buy a new mac or ipad with education savings.</h4>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-  <!----------------------------------------------- S T O R E - S E C T I O N - E N D ---------------------------------------------->
-
-  <!------------------------------------------------ M A C - S E C T I O N ---------------------------------------------->
-
-   <div id="mac-section">
-
-    <div class="container-fluid my-5">
-      <div class="row mx-auto" id="mac-card-row">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <div class="card  ms-5 me-3">
-          <img src="./images/macbookair_light__dfypt7o3xfgy_large.svg" width="100px" height="100px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2"><small>macbook air</small></p>
-        </div>
-
-        <!------------- C A R D - 2 ---------------->
-
-        <div class="card  mx-3">
-          <img src=".//images/macbook_pro_light__bvnmtmeikj1e_large.svg" width="100px" height="100px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2"><small>macbook pro</small></p>
-
-        </div>
-
-        <!------------- C A R D - 3 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/imac_light__cx5ex9nbqxme_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2"><small>imac</small></p>
-        </div>
-
-        <!------------- C A R D - 4 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/mac_mini_light__e7ojhup2ezau_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2"><small>mac mini</small></p>
-        </div>
-
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/mac_studio_light__fcr3455qk0i2_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2"><small>mac studio</small></p>
-
-        </div>
-
-        <!------------- C A R D - 6 ---------------->
-
-        <div class="card  mx-3">
-          <img src="./images/mac_pro_light__bly2b0ua4seq_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">mac pro</p>
-        </div>
-
-        <!------------- C A R D - 7 ---------------->
-
-        <div class="card  mx-3">
-          <img src="./images/mac_compare_light__capy8s4wrbhy_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">mac compare</p>
-        </div>
-
-        <!------------- C A R D - 8 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/displays_light__d67yrnk0qsa6_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">displays</p>
-        </div>
-
-        <!------------- C A R D - 9 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/mac_accessories_light__esnwbnk4bxqq_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">accessories</p>
-        </div>
-
-         <!------------- C A R D - 10 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/mac_os_light__6mb5pqhztcie_large.svg" width="50px" height="50px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">sequoia</p>
-        </div>
-
-         <!------------- C A R D - 11 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/mac_shop_light__f0m72gc7jguq_large.svg" width="100px" height="100px" class="card-img" alt="...">
-          <p class="text-capitalize text-center pt-2">shop mac</p>
-        </div>
-      </div>
-    </div>
-
-     <!------------------- V I D E O - S E C T I O N ---------------------->
-
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-6 d-flex align-items-center">
-            <h1 class="display-1 fw-semibold text-capitalize">mac</h1>
-          </div>
-          <div class="col-lg-6 d-flex justify-content-end align-items-center"><h3 class="text-capitalize ">if you can dream it,<br> mac can do it.</h3></div>
-      </div>
-
-      
-     <video src="./videos/mac-video.mp4" class="mac-video rounded-5 my-5" autoplay loop muted></video>
-
-     <!------------------- V I D E O - S E C T I O N - E N D --------------------->
-
-     <!------------------- U N I V E R S I T Y - S T U D E N T ---------------------->
-
-     <div class="heading"><h1 class="text-capitalize display-5 fw-semibold my-5">go further with mac.</h1></div>
-
-     <div
-     class="mac-banner rounded-5 d-flex justify-content-center align-items-center text-center text-light text-capitalize">
-     <div class="banner-content">
-       <h1 class="display-4 my-5 fw-semibold">supercharged your studies.</h1>
-       <button type="button" class="btn btn-light px-3 py-2 mx-2 rounded-pill text-capitalize">
-         watch the film
-       </button>
-       <button type="button" class="btn btn-primary px-3 py-2 mx-2 rounded-pill text-capitalize">
-         learn more
-       </button>
-     </div>
-   </div>
-
-     <!------------------- U N I V E R S I T Y - S T U D E N T - E N D ---------------------->
-
-     <!------------------- M A C - C A R O U S E L ---------------------->
-
-     <div class="container-fluid my-5">
-      <div class="row px-5" id="mac-card-row-2">
-
-        <!------------- C A R D - 1 ---------------->
-
-        <button type="button" class="btn btn-primary p-0 mx-3 border-0 mac-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        <div class="card text-light">
-          <img src="./images/carousel-iphone.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">iphone 15 pro</h5>
-            <h2 class="card-text text-capitalize">titanium</h2>
-            <h6 class="card-text">From ₹5621.00/mo. for 24 mo. with No Cost EMI§ or ₹134900.00‡</h6>
-          </div>
-        </div>
-      </button>
-
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content mx-auto">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-              <button type="button" class="btn-close bg-secondary p-2 rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="card w-100 h-100 border text-bg-dark">
-
-                  <img src="./images/mac-modal-1.1.jpg" class="card-img" alt="...">
-                </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 px-0">
+            <div
+              class="bubble d-flex justify-content-center align-items-center text-center text-light text-capitalize"
+            >
+              <div class="bubble-content">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary rounded-pill text-capitalize px-4"
+                >
+                  shop
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-        
 
+      <!---------------------------- B A N N E R - S E C T I O N - E N D ------------------------->
 
+      <!--------------------------- S H O P P I N G - S E C T I O N ----------------------------------->
 
-        <!------------- C A R D - 2 ---------------->
+      <div class="container-fluid my-2">
+        <!------------------ R O W - 1 ----------------->
+        <div class="row m-auto g-3">
+          <div class="col-lg-6">
+            <div
+              class="banner-background d-flex justify-content-center align-items-center text-center text-light text-capitalize"
+            >
+              <div class="banner-content">
+                <h1>university students</h1>
+                <h3>go further with mac</h3>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+              </div>
+            </div>
+          </div>
 
-        <div class="card text-light mx-3">
-          <img src=".//images/carousel-ipad.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">ipad pro</h5>
-            <h2 class="card-text text-capitalize">thinpossible.</h2>
-            <h6 class="card-text">From ₹99900.00‡</h6>
+          <div class="col-lg-6">
+            <div class="macbook-background d-flex justify-content-center pt-5">
+              <div class="macbook-content text-capitalize text-center">
+                <h1>MacBook air</h1>
+                <h3>supercharged by m3.</h3>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary rounded-pill text-capitalize px-3"
+                >
+                  buy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="content w-100 d-flex justify-content-center"
+              id="ipad-air"
+            >
+              <div class="information mt-4 text-center text-capitalize">
+                <h1>ipad <span>air</span></h1>
+                <h3>two sizes.faster chip. does it all.</h3>
+                <button
+                  type="button"
+                  class="btn btn-dark rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark rounded-pill text-capitalize px-3"
+                >
+                  buy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="content w-100 d-flex justify-content-center"
+              id="macbook-pro"
+            >
+              <div class="information mt-4 text-center text-capitalize">
+                <h1>macbook pro</h1>
+                <h3>mind-blowing. head-turning.</h3>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary rounded-pill text-capitalize px-3"
+                >
+                  buy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!------------- C A R D - 3 ---------------->
+        <!------------------- R O W - 2 -------------------->
 
-        <div class="card mx-3">
-          <img src="./images/carousel-mac-or-ipad.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-danger text-uppercase">limited-time-offer</h5>
-            <h2 class="card-text text-capitalize">save on mac or ipad for university.</h2>
-            <h6 class="card-text">Plus get AirPods with Mac,◊◊◊ <br> Apple Pencil with iPad,◊◊◊ <br> 20% off
-              AppleCare+,°°° and more.</h6>
+        <div class="row m-auto g-3">
+          <div class="col-lg-6">
+            <div
+              class="content w-100 d-flex justify-content-center"
+              id="ipad-pro"
+            >
+              <div
+                class="information mt-4 text-center text-capitalize text-light"
+              >
+                <h1>ipad pro</h1>
+                <h3>unbelievably thin. increadibly powerful.</h3>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary rounded-pill text-capitalize px-3"
+                >
+                  buy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="content w-100 d-flex justify-content-center"
+              id="iphone"
+            >
+              <div
+                class="information mt-4 text-center text-capitalize text-light"
+              >
+                <h1>iphone 15 pro</h1>
+                <h3>mind-blowing. head-turning.</h3>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary rounded-pill text-capitalize px-3"
+                >
+                  buy
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!------------- C A R D - 4 ---------------->
+        <!------------------ R O W - 3 ----------------->
 
-        <div class="card mx-3">
-          <img src="./images/carousel-4.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">macbook air</h5>
-            <h2 class="card-text text-capitalize">designed to go places.</h2>
-            <h6 class="card-text">From ₹99900.00‡</h6>
+        <div class="row m-auto g-3">
+          <div class="col-lg-6">
+            <div
+              class="content w-100 d-flex justify-content-center"
+              id="app-store"
+            >
+              <div
+                class="information mt-4 text-center text-capitalize text-light"
+              >
+                <h1>ipad <span>air</span></h1>
+                <h3>two sizes.faster chip. does it all.</h3>
+                <button
+                  type="button"
+                  class="btn btn-light rounded-pill text-capitalize"
+                >
+                  learn more
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="content w-100 d-flex justify-content-center"
+              id="trade-in"
+            >
+              <div class="information mt-4 text-center text-capitalize">
+                <h1>macbook pro</h1>
+                <h3>mind-blowing. head-turning.</h3>
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill text-capitalize"
+                >
+                  get your estimate
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------------- S H O P P I N G - S E C T I O N - E N D ----------------------------------->
+
+      <!------------------------------- C A R O U S E L S -------------------------------------->
+
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade m-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/kungfupanda-4.webp"
+              width="100%"
+              height="100%"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/8c19cf5f9e6bb86a9d35d7fb6d0852c5.png"
+              width="100%"
+              height="100%"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/EL-MEDIADOR-carat-1.jpg"
+              width="100%"
+              height="100%"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-------------------------------- C A R O U S E L - E N D ------------------------------->
+
+    <!-------------------------------------------------- S T O R E - S E C T I O N ---------------------------------------------->
+
+    <div id="store">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-6">
+            <h1 class="text-capitalize">
+              store.<span class="text-secondary"
+                >the best way to buy the products you love.</span
+              >
+            </h1>
+          </div>
+          <div class="col-lg-6 d-flex align-items-end flex-column">
+            <!--------- C A R D - 1 ---------->
+            <div class="text-capitalize d-flex">
+              <img
+                src="./images/chat-specialist.jpeg"
+                width="50px"
+                height="50px"
+                class="mx-2"
+                alt=""
+              />
+              <span>
+                <p>
+                  need shopping help?
+                  <br />
+                  <a href="#">ask a specialist</a>
+                </p>
+              </span>
+            </div>
+
+            <!----------- C A R D - 2 --------->
+            <div class="text-capitalize d-flex">
+              <img
+                src="./images/apple-location-icon.webp"
+                width="50px"
+                height="50px"
+                class="mx-2"
+                alt=""
+              />
+              <span>
+                <p>
+                  visit an apple store.
+                  <br />
+                  <a href="#">find one near you</a>
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5">
+        <div class="row mx-auto" id="main-card-row">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card ms-5 me-3">
+            <img
+              src="./images/mav-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">mac</p>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src=".//images/iphone-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">iphone</p>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/ipad-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">ipad</p>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/watch-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">apple watch</p>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/airpods-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">airpods</p>
+          </div>
+
+          <!------------- C A R D - 6 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/airtag-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">airtag</p>
+          </div>
+
+          <!------------- C A R D - 7 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/apple-tv-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">apple tv 4k</p>
+          </div>
+
+          <!------------- C A R D - 8 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/homepod-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">homepod</p>
+          </div>
+
+          <!------------- C A R D - 9 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/accessories-store.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">accessories</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              the latest.
+              <span class="text-secondary"
+                >take a look at what's new right now</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------S T O R E - C A R O U S E L  ------------------------------->
+
+      <!--------------------- C A R O U S E L - 2 ------------------>
+
+      <div class="container-fluid my-5">
+        <div class="row px-5" id="store-card-row">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card text-light ms-5 me-3">
+            <img
+              src="./images/carousel-iphone.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">iphone 15 pro</h5>
+              <h2 class="card-text text-capitalize">titanium</h2>
+              <h6 class="card-text">
+                From ₹5621.00/mo. for 24 mo. with No Cost EMI§ or ₹134900.00‡
+              </h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card text-light mx-3">
+            <img
+              src=".//images/carousel-ipad.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">ipad pro</h5>
+              <h2 class="card-text text-capitalize">thinpossible.</h2>
+              <h6 class="card-text">From ₹99900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carousel-mac-or-ipad.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-danger text-uppercase">
+                limited-time-offer
+              </h5>
+              <h2 class="card-text text-capitalize">
+                save on mac or ipad for university.
+              </h2>
+              <h6 class="card-text">
+                Plus get AirPods with Mac,◊◊◊ <br />
+                Apple Pencil with iPad,◊◊◊ <br />
+                20% off AppleCare+,°°° and more.
+              </h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carousel-4.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">macbook air</h5>
+              <h2 class="card-text text-capitalize">designed to go places.</h2>
+              <h6 class="card-text">From ₹99900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carouusel-5.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">ipad air</h5>
+              <h2 class="card-text text-capitalize">fresh air.</h2>
+              <h6 class="card-text">From ₹59900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 6 ---------------->
+
+          <div class="card text-light mx-3">
+            <img
+              src="./images/carousel-6.png"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">apple pencil pro</h5>
+              <h2 class="card-text text-capitalize">
+                engineered for limitless creativity.
+              </h2>
+              <h6 class="card-text">₹11900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 7 ---------------->
+
+          <div class="card text-light mx-3">
+            <img
+              src="./images/carousel-7.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">apple watch series 9</h5>
+              <h2 class="card-text text-capitalize">
+                smarter.brighter.mightier.
+              </h2>
+              <h6 class="card-text">From ₹41900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 8 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carousel-8.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">iphone 15</h5>
+              <h2 class="card-text text-capitalize">newphoria.</h2>
+              <h6 class="card-text">
+                From ₹3329.00/mo. for 24 mo. with No Cost EMI§ or ₹79900.00‡
+              </h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 9 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carousel-9.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">apple watch ultra 2</h5>
+              <h2 class="card-text text-capitalize">next-level adventure.</h2>
+              <h6 class="card-text">From ₹89900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 10 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carousel-10.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">macbook pro</h5>
+              <h2 class="card-text text-capitalize">
+                mind-blowing.<br />head-turning
+              </h2>
+              <h6 class="card-text">From ₹169900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 11 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/carousel-11.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">apple watch se</h5>
+              <h2 class="card-text text-capitalize">a great deal to love.</h2>
+              <h6 class="card-text">From ₹29900.00‡</h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 12 ---------------->
+
+          <div class="card text-light ms-3 me-5">
+            <img
+              src="./images/carousel-12.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-uppercase">
+                pride edition <br />
+                braided solo loop
+              </h5>
+              <h2 class="card-text text-capitalize">let your light shine.</h2>
+              <h6 class="card-text">From ₹9500.00‡</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------- C A R O U S E L - 2 ------------------>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              help is here.<span class="text-secondary"
+                >whenever and however you need it.</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5">
+        <div class="row px-5" id="store-card-row-2">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card ms-5 me-3">
+            <img
+              src="./images/helper-1.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <p class="card-title text-uppercase text-secondary">
+                apple specialist
+              </p>
+              <h2 class="card-text text-capitalize">
+                shop one on one with a specialist online.
+              </h2>
+            </div>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card text-light mx-3" style="width: 400px">
+            <img
+              src=".//images/helper-2.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <p class="card-title text-uppercase text-secondary">business</p>
+              <h2 class="card-text text-capitalize">
+                From enterprise to small business, we’ll work with you.1
+              </h2>
+            </div>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/helper-3.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <p class="card-title text-secondary text-uppercase">
+                today at apple
+              </p>
+              <h2 class="card-text text-capitalize">gear up for university.</h2>
+              <h6 class="card-text">
+                Go back to school with Mac and iPad. Join free sessions at the
+                Apple Store.
+              </h6>
+            </div>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/helper-4.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h2 class="card-title text-uppercase">
+                get help srtting up your new device in a free online personal
+                session.
+              </h2>
+            </div>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card ms-3 me-5">
+            <img
+              src="./images/helper-5.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <p class="card-title text-uppercase text-secondary">
+                watch and learn
+              </p>
+              <h2 class="card-text text-capitalize">
+                need support? our teams are here for you.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------- C A R O U S E L - 3 ------------------>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              The Apple Store difference.<span class="text-secondary">
+                Even more reasons to shop with us.</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5">
+        <div class="row px-5 text-capitalize" id="store-card-row-3">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card ms-5 me-3" style="width: 18rem">
+            <div class="card-body">
+              <i class="bx bx-devices text-primary fs-1"></i>
+              <h4 class="card-subtitle mb-2">
+                <span class="text-primary">exchange your smartphone,</span> get
+                ₹16000.00 – ₹62015.00 in credit towards a new one.*
+              </h4>
+            </div>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card mx-3" style="width: 18rem">
+            <div
+              class="card-body"
+              style="
+                background-image: linear-gradient(
+                  to right,
+                  yellow,
+                  orange,
+                  rgb(235, 64, 235),
+                  lightblue,
+                  lightseagreen
+                );
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+              "
+            >
+              <i class="bx bxl-apple text-primary fs-1"></i>
+              <h4 class="card-subtitle mb-2">customise your mac</h4>
+            </div>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3" style="width: 18rem">
+            <div class="card-body">
+              <i class="bx bx-smile fs-1" style="color: blueviolet"></i>
+              <h4 class="card-subtitle mb-2">
+                make them yours.<span style="color: blueviolet"
+                  >Engrave a mix of emoji, names and numbers for free.</span
+                >
+              </h4>
+            </div>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3" style="width: 18rem">
+            <div class="card-body">
+              <i class="bx bx-credit-card text-success fs-1"></i>
+              <h4 class="card-subtitle mb-2">
+                <span class="text-success">flexible ways to pay.</span>plus no
+                Cost EMI.
+              </h4>
+            </div>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card mx-3" style="width: 18rem">
+            <div class="card-body">
+              <i class="bx bxs-truck text-success fs-1"></i>
+              <h4 class="card-subtitle mb-2">
+                <span class="text-success"
+                  >enjoy free delivery, oreasy pickup </span
+                >from an apple store.
+              </h4>
+            </div>
+          </div>
+
+          <!------------- C A R D - 6 ----------------->
+
+          <div class="card ms-3 me-5" style="width: 18rem">
+            <div class="card-body">
+              <i class="bx bx-devices text-primary fs-1"></i>
+              <h4 class="card-subtitle mb-2">
+                <span class="text-primary"
+                  >trade in your eligible mac, apple watch or ipad for instant
+                  credit.</span
+                >
+                in-store only.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------- C A R O U S E L - 4 --------------->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              accessories.<span class="text-secondary"
+                >Essentials that pair perfectly with your favourite
+                devices.</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5">
+        <div class="row px-5" id="store-card-row-4">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card ms-5 me-3" style="width: 400px">
+            <img
+              src="./images/crouesel-accessories-1.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h3 class="card-title text-capitalize">in with the new.</h3>
+              <p class="card-text text-capitalize">
+                discover fresh colors and new features for your favourite
+                accessories.
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src=".//images/crousel-accessories-2.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <p class="card-title text-capitalize text-danger">new</p>
+              <h5 class="card-text text-capitalize">
+                45mm pride edition braided solo loop - size 6
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹9500.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessoires-3.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <p class="card-title text-capitalize text-danger">new</p>
+              <h5 class="card-text text-capitalize">apple pencli pro</h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹11900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessories-4.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <p class="card-title text-capitalize text-danger">new</p>
+              <h5 class="card-text text-capitalize">
+                magic keyboard for ipad pro 13" (m4) - US english - black
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹33900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessories-5.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">
+                iphone 15 pro finewoven case with magsafe - evergreen
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹5900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 6 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessories-6.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">
+                iphone finewoven wallet with magsafe - pacific blue
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹5900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 7 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessories-7.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">
+                45mm soft mint sport loop
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹4500.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 8 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessories-8.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">
+                iphone 15 silicon case with magsafe - light blue
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹9500.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 9 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-accessories-9.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">
+                45mm sunshine sport band - M/l
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹9500.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 10 ---------------->
+
+          <div class="card ms-3 me-5" style="width: 400px">
+            <img
+              src="./images/crousel-accessories-10.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <p class="card-title text-uppercase text-secondary">
+                watch and learn
+              </p>
+              <h2 class="card-text text-capitalize">
+                need support? our teams are here for you.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------ C A R O U S E L -5 ------------------>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              Loud and clear.<span class="text-secondary">
+                Unparalleled choices for rich, high-quality sound.</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5">
+        <div class="row px-5" id="store-card-row-4">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card ms-5 me-3" style="width: 400px">
+            <img
+              src="./images/carousel-music-1.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h3 class="card-title text-capitalize">
+                get 6 months of apple music free
+              </h3>
+              <p class="card-text text-capitalize">
+                included with your homepod, airpods or selected beats products.
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src=".//images/craousel-music-2.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <p class="card-title text-capitalize text-danger">
+                Free Engraving
+              </p>
+              <h5 class="card-text text-capitalize">
+                AirPods Pro (2nd Generation) with MagSafe Charging Case (USB‑C)
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹24900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-music-3.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">homepod - midnight</h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹32900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-music-4.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <p class="card-title text-capitalize text-danger">new</p>
+              <h5 class="card-text text-capitalize">airpods max - silver</h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹59900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-music-5.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <h5 class="card-text text-capitalize">hellopod mini - yellow</h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹10900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 6 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/craousel-music-6.jpeg"
+              width="100%"
+              height="300px"
+              class="card-img"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-end flex-column my-3"
+            >
+              <p class="card-title text-capitalize text-danger">
+                Free Engraving
+              </p>
+              <h5 class="card-text text-capitalize">
+                AirPods Pro (3nd Generation) with MagSafe Charging Case (USB‑C)
+              </h5>
+              <p class="card-text text-capitalize text-secondary">
+                MRP ₹19900.00 (incl. of all taxes)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------ C A R O U S E L - 6 ------------------>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              The Apple experience.<span class="text-secondary">
+                Do even more with Apple products and services.</span
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid my-5">
+        <div class="row px-5" id="store-card-row-2">
+          <!------------- C A R D - 1 ---------------->
+
+          <div class="card ms-5 me-3">
+            <img
+              src="./images/crousel-product-and-services-1.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay text-light">
+              <p class="card-title text-uppercase">apple tv+</p>
+              <h2 class="card-text text-capitalize">
+                get 3 months of <br />
+                apple tv+ free when <br />
+                you buy an apple device.
+              </h2>
+            </div>
+          </div>
+
+          <!------------- C A R D - 2 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src=".//images/crousel-product-and-services-2.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h2 class="card-text text-capitalize">
+                for apple services. one easy subscription.
+              </h2>
+            </div>
+          </div>
+
+          <!------------- C A R D - 3 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/crousel-product-and-services-3.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h2 class="card-text text-capitalize">we've got you covered.</h2>
+              <p class="card-text">
+                AppleCare+ now comes with unlimited repairs for accidental
+                damage protection.
+              </p>
+            </div>
+          </div>
+
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card ms-3 me-5">
+            <img
+              src="./images/crousel-product-and-services-4.jpeg"
+              width="100%"
+              height="100%"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <p class="card-title text-uppercase">home</p>
+              <h2 class="card-title text-uppercase">
+                see how one app can control your entire home.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------- L A S T - C A R O U S E L ---------->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-capitalize">
+            <h3>
+              The Apple experience.<span class="text-secondary">
+                Do even more with Apple products and services.</span
+              >
+            </h3>
           </div>
         </div>
 
-        <!------------- C A R D - 5 ---------------->
-
-        <div class="card mx-3">
-          <img src="./images/carouusel-5.jpeg" width="100%" height="100%" class="card-img" alt="...">
+        <div
+          class="card rounded-4 overflow-hidden my-5"
+          id="special-store-card"
+        >
+          <img
+            src="./images/special-store.jpeg"
+            width="100%"
+            height="100%"
+            class="card-img"
+            alt="..."
+          />
           <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">ipad air</h5>
-            <h2 class="card-text text-capitalize">fresh air.</h2>
-            <h6 class="card-text">From ₹59900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 6 ---------------->
-
-        <div class="card text-light mx-3">
-          <img src="./images/carousel-6.png" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">apple pencil pro</h5>
-            <h2 class="card-text text-capitalize">engineered for limitless creativity.</h2>
-            <h6 class="card-text">₹11900.00‡</h6>
-          </div>
-        </div>
-
-        <!------------- C A R D - 7 ---------------->
-
-        <div class="card text-light mx-3">
-          <img src="./images/carousel-7.jpeg" width="100%" height="100%" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title text-uppercase">apple watch series 9</h5>
-            <h2 class="card-text text-capitalize">smarter.brighter.mightier.</h2>
-            <h6 class="card-text">From ₹41900.00‡</h6>
+            <p class="card-title text-uppercase">education</p>
+            <h4 class="card-title text-uppercase">
+              buy a new mac or ipad with education savings.
+            </h4>
           </div>
         </div>
       </div>
     </div>
+    <!----------------------------------------------- S T O R E - S E C T I O N - E N D ---------------------------------------------->
 
+    <!------------------------------------------------ M A C - S E C T I O N ---------------------------------------------->
 
-     <!------------------- M A C - C A R O U S E L - E N D ---------------------->
+    <div id="mac-section">
+      <div class="container-fluid my-5 px-4">
+        <div class="row mx-auto" id="mac-card-row">
+          <!------------- C A R D - 1 ---------------->
 
+          <div class="card mx-3">
+            <img
+              src="./images/macbookair_light__dfypt7o3xfgy_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">
+              <small>macbook air</small>
+            </p>
+          </div>
 
-   
-    </div>
-   </div>
+          <!------------- C A R D - 2 ---------------->
 
-  <!------------------------------------------------ M A C - S E C T I O N - E N D --------------------------------------------->
+          <div class="card mx-3">
+            <img
+              src=".//images/macbook_pro_light__bvnmtmeikj1e_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">
+              <small>macbook pro</small>
+            </p>
+          </div>
 
-  <!--------------------------------- F O O T E R ------------------------------------>
+          <!------------- C A R D - 3 ---------------->
 
-  <footer class="bg-body-tertiary text-center text-lg-start">
-    <!-- Grid container -->
-    <div class="container p-4 ">
-      <!--Grid row-->
-      <div class="row gx-5">
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase my-2">shop and learn</h5>
+          <div class="card mx-3">
+            <img
+              src="./images/imac_light__cx5ex9nbqxme_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2"><small>imac</small></p>
+          </div>
 
-          <ul class="list-unstyled my-2 text-capitalize">
-            <li>
-              <a href="#!" class="text-body">store</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">mac</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">ipad</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">iphone</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">watch</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">airpods</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">tv&home</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">airtag</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">accessories</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">gift cards</a>
-            </li>
-          </ul>
+          <!------------- C A R D - 4 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_mini_light__e7ojhup2ezau_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">
+              <small>mac mini</small>
+            </p>
+          </div>
+
+          <!------------- C A R D - 5 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_studio_light__fcr3455qk0i2_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">
+              <small>mac studio</small>
+            </p>
+          </div>
+
+          <!------------- C A R D - 6 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_pro_light__bly2b0ua4seq_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">mac pro</p>
+          </div>
+
+          <!------------- C A R D - 7 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_compare_light__capy8s4wrbhy_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">mac compare</p>
+          </div>
+
+          <!------------- C A R D - 8 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/displays_light__d67yrnk0qsa6_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">displays</p>
+          </div>
+
+          <!------------- C A R D - 9 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_accessories_light__esnwbnk4bxqq_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">accessories</p>
+          </div>
+
+          <!------------- C A R D - 10 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_os_light__6mb5pqhztcie_large.svg"
+              width="50px"
+              height="50px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">sequoia</p>
+          </div>
+
+          <!------------- C A R D - 11 ---------------->
+
+          <div class="card mx-3">
+            <img
+              src="./images/mac_shop_light__f0m72gc7jguq_large.svg"
+              width="100px"
+              height="100px"
+              class="card-img"
+              alt="..."
+            />
+            <p class="text-capitalize text-center pt-2">shop mac</p>
+          </div>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 px-5">
-          <h5 class="text-uppercase my-2">account</h5>
-
-          <ul class="list-unstyled text-capitalize">
-            <li>
-              <a href="#!" class="text-body"> manage your apple id</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple store account</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">icloud.com</a>
-            </li>
-
-            <h5 class="text-uppercase my-2 ">entertainment</h5>
-            <li>
-              <a href="#!" class="text-body">apple one</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple tv+</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple music</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple arcade</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple podcasts</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple books</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple store</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase my-2">apple store</h5>
-
-          <ul class="list-unstyled my-2 text-capitalize">
-            <li>
-              <a href="#!" class="text-body">find a store</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">geniues bar</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">today at apple</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">group reservations</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple camp</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple trade in</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">ways to buy</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">recycling programme</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">order status</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">shopping help</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 px-5">
-          <h5 class="text-uppercase my-2">for business</h5>
-
-          <ul class="list-unstyled text-capitalize">
-            <li>
-              <a href="#!" class="text-body">apple and business</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">shop for business</a>
-            </li>
-
-            <h5 class="text-uppercase my-2">for education</h5>
-
-            <li>
-              <a href="#!" class="text-body">apple and education</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">shop for education</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">shop for university</a>
-            </li>
-
-            <h5 class="text-uppercase my-2">for healthcare</h5>
-
-            <li>
-              <a href="#!" class="text-body">apple in healthcare</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">health on apple watch</a>
-            </li>
-          </ul>
-        </div>
-
-        <!--Grid column-->
-        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase my-2">apple values</h5>
-
-          <ul class="list-unstyled text-capitalize">
-            <li>
-              <a href="#!" class="text-body">accessibility</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">education</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">environment</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">privacy</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">supply chain</a>
-            </li>
-
-            <h5 class="text-uppercase my-2">about apple</h5>
-
-            <li>
-              <a href="#!" class="text-body">newsroom</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">apple leadership</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">career opportunities</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">investors</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">ethics & complaince</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">events</a>
-            </li>
-            <li>
-              <a href="#!" class="text-body">contact apple</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
       </div>
-      <!--Grid row-->
+
+      <!------------------- V I D E O - S E C T I O N ---------------------->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center">
+            <h1 class="display-1 fw-semibold text-capitalize">mac</h1>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-end align-items-center">
+            <h3 class="text-capitalize">
+              if you can dream it,<br />
+              mac can do it.
+            </h3>
+          </div>
+        </div>
+
+        <video
+          src="./videos/mac-video.mp4"
+          class="mac-video rounded-5 my-5"
+          autoplay
+          loop
+          muted
+        ></video>
+
+        <!------------------- V I D E O - S E C T I O N - E N D --------------------->
+
+        <!------------------- U N I V E R S I T Y - S T U D E N T ---------------------->
+
+        <div class="heading">
+          <h1 class="text-capitalize display-5 fw-semibold my-5">
+            go further with mac.
+          </h1>
+        </div>
+
+        <div
+          class="mac-banner rounded-5 d-flex justify-content-center align-items-center text-center text-light text-capitalize"
+        >
+          <div class="banner-content">
+            <h1 class="display-4 my-5 fw-semibold">
+              supercharged your studies.
+            </h1>
+            <button
+              type="button"
+              class="btn btn-light px-3 py-2 mx-2 rounded-pill text-capitalize"
+            >
+              watch the film
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary px-3 py-2 mx-2 rounded-pill text-capitalize"
+            >
+              learn more
+            </button>
+          </div>
+        </div>
+        </div>
+
+        <!------------------- U N I V E R S I T Y - S T U D E N T - E N D ---------------------->
+
+        <!------------------- M A C - C A R O U S E L ---------------------->
+
+        <div class="container-fluid my-5">
+          <div class="row" id="mac-card-row-2">
+            <!------------- C A R D - 1 ---------------->
+
+            <button
+              type="button"
+              class="btn btn-primary rounded-5 overflow-hidden p-0 ms-5 me-3 border-0 mac-modal"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <div class="card text-start text-light">
+                <img
+                  src="./images/mac-car-1.jpg"
+                  width="100%"
+                  height="100%"
+                  class="card-img"
+                  alt="..."
+                />
+                <div class="card-img-overlay my-3 px-4">
+                  <h5 class="card-title text-capitalize">geting started</h5>
+                  <h3 class="card-text text-capitalize">easy to use. easy to love</h3>
+                </div>
+              </div>
+            </button>
+
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content mx-auto">
+                  <div class="modal-header border-0">
+                    <button
+                      type="button"
+                      class="btn-close bg-secondary p-2 rounded-circle"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="modal-title">
+                        <h5>Getting started</h5>
+                        <h1>Easy to use. Easy to love.</h1>
+                      </div>
+                    </div>
+
+                    <div class="container">
+                      <div class="row gy-5">
+                        <div class="col-lg-12 mt-5">
+                          <div class="content">
+                            <h4 class="my-5 px-5">
+                              Familiar as iPhone.
+                              <span class="text-secondary"
+                                >You’ll feel right at home on Mac, with many of
+                                the same apps as iPhone — like Messages, Photos,
+                                Notes and FaceTime
+                              </span>
+                            </h4>
+                            <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 mt-5">
+                          <div class="content">
+                            <h4 class="my-5 px-5" >
+                              Fully loaded.
+                              <span class="text-secondary"
+                                >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                              </span>
+                            </h4>
+                            <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 mt-5">
+                          <div class="content">
+                            <h4 class="my-5 px-5">
+                              Simple setup.
+                              <span class="text-secondary"
+                                >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                              </span>
+                            </h4>
+                            <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!------------- C A R D - 2 ---------------->
+
+            <button
+            type="button"
+            class="btn btn-primary rounded-5 overflow-hidden p-0 mx-3 border-0 mac-modal"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <div class="card text-start text-light">
+              <img
+                src="./images/mac-car-2.jpg"
+                width="100%"
+                height="100%"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay my-3 px-4">
+                <h5 class="card-title text-capitalize">Performance and Battery Life</h5>
+                <h3 class="card-text text-capitalize">Go fast. Go far.</h3>
+              </div>
+            </div>
+          </button>
+
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content mx-auto">
+                <div class="modal-header border-0">
+                  <button
+                    type="button"
+                    class="btn-close bg-secondary p-2 rounded-circle"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-title">
+                      <h5>Getting started</h5>
+                      <h1>Easy to use. Easy to love.</h1>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row gy-5">
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Familiar as iPhone.
+                            <span class="text-secondary"
+                              >You’ll feel right at home on Mac, with many of
+                              the same apps as iPhone — like Messages, Photos,
+                              Notes and FaceTime
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5" >
+                            Fully loaded.
+                            <span class="text-secondary"
+                              >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Simple setup.
+                            <span class="text-secondary"
+                              >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!------------- C A R D - 3 ---------------->
+
+            <button
+            type="button"
+            class="btn btn-primary rounded-5 overflow-hidden p-0 mx-3 border-0 mac-modal"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <div class="card text-start text-light">
+              <img
+                src="./images/mac-car-3.jpg"
+                width="100%"
+                height="100%"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay my-3 px-4">
+                <h5 class="card-title text-capitalize">Mac and iPhone</h5>
+                <h3 class="card-text text-capitalize">Dream team.</h3>
+              </div>
+            </div>
+          </button>
+
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content mx-auto">
+                <div class="modal-header border-0">
+                  <button
+                    type="button"
+                    class="btn-close bg-secondary p-2 rounded-circle"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-title">
+                      <h5>Getting started</h5>
+                      <h1>Easy to use. Easy to love.</h1>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row gy-5">
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Familiar as iPhone.
+                            <span class="text-secondary"
+                              >You’ll feel right at home on Mac, with many of
+                              the same apps as iPhone — like Messages, Photos,
+                              Notes and FaceTime
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5" >
+                            Fully loaded.
+                            <span class="text-secondary"
+                              >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Simple setup.
+                            <span class="text-secondary"
+                              >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!------------- C A R D - 4 ---------------->
+            <button
+            type="button"
+            class="btn btn-primary rounded-5 overflow-hidden p-0 mx-3 border-0 mac-modal"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <div class="card text-start">
+              <img
+                src="./images/mac-car-4.jpg"
+                width="100%"
+                height="100%"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay my-3 px-4">
+                <h5 class="card-title text-capitalize">Compatibility</h5>
+                <h3 class="card-text text-capitalize">Mac runs your favourite apps.</h3>
+              </div>
+            </div>
+          </button>
+
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content mx-auto">
+                <div class="modal-header border-0">
+                  <button
+                    type="button"
+                    class="btn-close bg-secondary p-2 rounded-circle"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-title">
+                      <h5>Getting started</h5>
+                      <h1>Easy to use. Easy to love.</h1>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row gy-5">
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Familiar as iPhone.
+                            <span class="text-secondary"
+                              >You’ll feel right at home on Mac, with many of
+                              the same apps as iPhone — like Messages, Photos,
+                              Notes and FaceTime
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5" >
+                            Fully loaded.
+                            <span class="text-secondary"
+                              >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Simple setup.
+                            <span class="text-secondary"
+                              >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!------------- C A R D - 5 ---------------->
+
+            <button
+              type="button"
+              class="btn btn-primary rounded-5 overflow-hidden p-0 mx-3 border-0 mac-modal"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <div class="card text-start text-light">
+                <img
+                  src="./images/mac-car-5.jpg"
+                  width="100%"
+                  height="100%"
+                  class="card-img"
+                  alt="..."
+                />
+                <div class="card-img-overlay my-3 px-4">
+                  <h5 class="card-title text-capitalize">Privacy and Security</h5>
+                  <h3 class="card-text text-capitalize">Your business is nobody else’s.</h3>
+                </div>
+              </div>
+            </button>
+
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content mx-auto">
+                  <div class="modal-header border-0">
+                    <button
+                      type="button"
+                      class="btn-close bg-secondary p-2 rounded-circle"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="modal-title">
+                        <h5>Getting started</h5>
+                        <h1>Easy to use. Easy to love.</h1>
+                      </div>
+                    </div>
+
+                    <div class="container">
+                      <div class="row gy-5">
+                        <div class="col-lg-12 mt-5">
+                          <div class="content">
+                            <h4 class="my-5 px-5">
+                              Familiar as iPhone.
+                              <span class="text-secondary"
+                                >You’ll feel right at home on Mac, with many of
+                                the same apps as iPhone — like Messages, Photos,
+                                Notes and FaceTime
+                              </span>
+                            </h4>
+                            <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 mt-5">
+                          <div class="content">
+                            <h4 class="my-5 px-5" >
+                              Fully loaded.
+                              <span class="text-secondary"
+                                >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                              </span>
+                            </h4>
+                            <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                          </div>
+                        </div>
+
+                        <div class="col-lg-12 mt-5">
+                          <div class="content">
+                            <h4 class="my-5 px-5">
+                              Simple setup.
+                              <span class="text-secondary"
+                                >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                              </span>
+                            </h4>
+                            <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!------------- C A R D - 6 ---------------->
+            <button
+            type="button"
+            class="btn btn-primary rounded-5 overflow-hidden p-0 mx-3 border-0 mac-modal"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <div class="card text-start">
+              <img
+                src="./images/mac-car-6.jpg"
+                width="100%"
+                height="100%"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay my-3 px-4">
+                <h5 class="card-title text-capitalize">Durability</h5>
+                <h3 class="card-text text-capitalize">Built to stand the test of time.</h3>
+              </div>
+            </div>
+          </button>
+
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content mx-auto">
+                <div class="modal-header border-0">
+                  <button
+                    type="button"
+                    class="btn-close bg-secondary p-2 rounded-circle"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-title">
+                      <h5>Getting started</h5>
+                      <h1>Easy to use. Easy to love.</h1>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row gy-5">
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Familiar as iPhone.
+                            <span class="text-secondary"
+                              >You’ll feel right at home on Mac, with many of
+                              the same apps as iPhone — like Messages, Photos,
+                              Notes and FaceTime
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5" >
+                            Fully loaded.
+                            <span class="text-secondary"
+                              >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Simple setup.
+                            <span class="text-secondary"
+                              >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!------------- C A R D - 7 ---------------->
+
+            <button
+            type="button"
+            class="btn btn-primary rounded-5 overflow-hidden p-0 ms-3 me-5 border-0 mac-modal"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            <div class="card text-start">
+              <img
+                src="./images/mac-car-7.jpg"
+                width="100%"
+                height="100%"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay my-3 px-4">
+                <h5 class="card-title text-capitalize">Apple Values</h5>
+                <h3 class="card-text text-capitalize">Our values drive everything we do.</h3>
+              </div>
+            </div>
+          </button>
+
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content mx-auto">
+                <div class="modal-header border-0">
+                  <button
+                    type="button"
+                    class="btn-close bg-secondary p-2 rounded-circle"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="modal-title">
+                      <h5>Getting started</h5>
+                      <h1>Easy to use. Easy to love.</h1>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row gy-5">
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Familiar as iPhone.
+                            <span class="text-secondary"
+                              >You’ll feel right at home on Mac, with many of
+                              the same apps as iPhone — like Messages, Photos,
+                              Notes and FaceTime
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.1.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5" >
+                            Fully loaded.
+                            <span class="text-secondary"
+                              >Get started with apps you’ll use every day, like Mail, Calendar and Safari for surfing the web. And if you want to create documents, spreadsheets or presentations, there are powerful built-in productivity apps like Pages, Numbers and Keynote.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.2.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 mt-5">
+                        <div class="content">
+                          <h4 class="my-5 px-5">
+                            Simple setup.
+                            <span class="text-secondary"
+                              >Migration Assistant makes it easy to transfer your data — including documents, photos, settings and user accounts — from your previous Mac or PC.
+                            </span>
+                          </h4>
+                          <img src="./images/mac-modal-1.3.jpg" width="100%" height="100%" alt="">
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+
+        <!------------------- M A C - C A R O U S E L - E N D ---------------------->
+      </di>
     </div>
-    <!-- Grid container -->
 
-    <!-- Copyright -->
-    <div class="text-center p-3 border-top">
-      © 2024 Copyright:
-      <a class="text-body" href="https://www.apple.com/in/"> <span class="text-primary">Apple Inc.</span> All rights
-        reserved.</a>
-      <span class="text-capitalize px-5">privacy policy | terms of use | sales policy | legal | site map</span>
-    </div>
-    <!-- Copyright -->
-  </footer>
+    <!------------------------------------------------ M A C - S E C T I O N - E N D --------------------------------------------->
 
-  <!--------------------------------- F O O T E R - E N D ----------------------------------->
+    <!--------------------------------- F O O T E R ------------------------------------>
 
-  <!-------------------------- S C R I P T S --------------------------------->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row gx-5">
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase my-2">shop and learn</h5>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
+            <ul class="list-unstyled my-2 text-capitalize">
+              <li>
+                <a href="#!" class="text-body">store</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">mac</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">ipad</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">iphone</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">watch</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">airpods</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">tv&home</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">airtag</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">accessories</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">gift cards</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 px-5">
+            <h5 class="text-uppercase my-2">account</h5>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <ul class="list-unstyled text-capitalize">
+              <li>
+                <a href="#!" class="text-body"> manage your apple id</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple store account</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">icloud.com</a>
+              </li>
 
-  <script src="script.js"></script>
-</body>
+              <h5 class="text-uppercase my-2">entertainment</h5>
+              <li>
+                <a href="#!" class="text-body">apple one</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple tv+</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple music</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple arcade</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple podcasts</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple books</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple store</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
 
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase my-2">apple store</h5>
+
+            <ul class="list-unstyled my-2 text-capitalize">
+              <li>
+                <a href="#!" class="text-body">find a store</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">geniues bar</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">today at apple</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">group reservations</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple camp</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple trade in</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">ways to buy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">recycling programme</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">order status</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">shopping help</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 px-5">
+            <h5 class="text-uppercase my-2">for business</h5>
+
+            <ul class="list-unstyled text-capitalize">
+              <li>
+                <a href="#!" class="text-body">apple and business</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">shop for business</a>
+              </li>
+
+              <h5 class="text-uppercase my-2">for education</h5>
+
+              <li>
+                <a href="#!" class="text-body">apple and education</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">shop for education</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">shop for university</a>
+              </li>
+
+              <h5 class="text-uppercase my-2">for healthcare</h5>
+
+              <li>
+                <a href="#!" class="text-body">apple in healthcare</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">health on apple watch</a>
+              </li>
+            </ul>
+          </div>
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase my-2">apple values</h5>
+
+            <ul class="list-unstyled text-capitalize">
+              <li>
+                <a href="#!" class="text-body">accessibility</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">education</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">environment</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">privacy</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">supply chain</a>
+              </li>
+
+              <h5 class="text-uppercase my-2">about apple</h5>
+
+              <li>
+                <a href="#!" class="text-body">newsroom</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">apple leadership</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">career opportunities</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">investors</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">ethics & complaince</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">events</a>
+              </li>
+              <li>
+                <a href="#!" class="text-body">contact apple</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3 border-top">
+        © 2024 Copyright:
+        <a class="text-body" href="https://www.apple.com/in/">
+          <span class="text-primary">Apple Inc.</span> All rights reserved.</a
+        >
+        <span class="text-capitalize px-5"
+          >privacy policy | terms of use | sales policy | legal | site map</span
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!--------------------------------- F O O T E R - E N D ----------------------------------->
+
+    <!-------------------------- S C R I P T S --------------------------------->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>
