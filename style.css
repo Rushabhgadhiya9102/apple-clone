@@ -108,6 +108,17 @@ footer {
   font-size: small;
 }
 
+tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+table{
+  width: 500px;
+}
+
 #store-card-row,
 #store-card-row-2,
 #store-card-row-4 {
@@ -259,5 +270,4 @@ footer {
 
 .ipad-lineups{
   object-fit: contain;
-  
 }
