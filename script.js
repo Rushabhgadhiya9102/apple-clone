@@ -24,3 +24,13 @@ $(".mac-accor").on("click", function () {
   $("#mac-accor-1, #mac-accor-2, #mac-accor-3").hide();
   $($(this).attr("for")).show();
 });
+
+
+// ------------------ I P A D - S E C T I O N -------------
+
+$("#ipad-accor-2").hide();
+
+$(".ipad-accor").on("click", function () {
+  $("#ipad-accor-1, #ipad-accor-2").hide();
+  $($(this).attr("for")).show();
+});
