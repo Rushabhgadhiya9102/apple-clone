@@ -1,10 +1,10 @@
 
 // --------------------- N A V I G A T I O N ------------------------
 
-$("#home-page,#ipad-section,#mac-section").hide();
+$("#home-page,#store,#ipad-section,#mac-section").hide();
 
 $(".nav-link").on("click", function () {
-  $("#home-page,#store,#mac-section,#ipad-section").hide();
+  $("#home-page,#store,#mac-section,#ipad-section,#iphone-section").hide();
   $($(this).attr("href")).show();
 });
 
