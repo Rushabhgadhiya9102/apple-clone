@@ -271,3 +271,9 @@ table{
 .ipad-lineups{
   object-fit: contain;
 }
+
+.iphone-lineup{
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+}
