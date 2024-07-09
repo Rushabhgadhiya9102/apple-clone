@@ -34,3 +34,12 @@ $(".ipad-accor").on("click", function () {
   $("#ipad-accor-1, #ipad-accor-2").hide();
   $($(this).attr("for")).show();
 });
+
+// ---------------- I P H O N E - S E C T I O N -------------
+
+$("#iphone-accor-2,#iphone-accor-3").hide();
+
+$(".ipad-accor").on("click", function () {
+  $("#iphone-accor-1, #iphone-accor-2, #iphone-accor-3").hide();
+  $($(this).attr("for")).show();
+});
