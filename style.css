@@ -260,6 +260,17 @@ table{
   scrollbar-width: none;
 }
 
+#mac-card-row-2 {
+  height: auto;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
 #mac-card-row-3 .card {
   height: 300px;
   padding: 0;
