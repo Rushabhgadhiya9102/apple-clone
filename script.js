@@ -39,7 +39,16 @@ $(".ipad-accor").on("click", function () {
 
 $("#iphone-accor-2,#iphone-accor-3").hide();
 
-$(".ipad-accor").on("click", function () {
+$(".iphone-accor").on("click", function () {
   $("#iphone-accor-1, #iphone-accor-2, #iphone-accor-3").hide();
   $($(this).attr("for")).show();
 });
+
+// ----------------- W A T C H - S E C T I O N -------------
+
+$("#watch-accor-2").hide();
+
+$(".watch-accor").on("click",function () {
+  $("#watch-accor-1, #watch-accor-2").hide();
+  $($(this).attr("for")).show();
+})
