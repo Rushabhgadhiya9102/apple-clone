@@ -52,3 +52,15 @@ $(".watch-accor").on("click",function () {
   $("#watch-accor-1, #watch-accor-2").hide();
   $($(this).attr("for")).show();
 })
+
+// -------------- A I R P O D S - C A R O U S E L ---------------
+
+$('.air-pod-content').hide();
+$('.bxs-x-circle').hide();
+
+$('.btn').on('click', function() {
+  $('.air-pod-content').fadeToggle(100);
+  $('.images-hide').fadeToggle(100); 
+  $('.bxs-plus-circle').toggle(); 
+  $('.bxs-x-circle').toggle(); 
+});
