@@ -58,9 +58,6 @@ $(".watch-accor").on("click",function () {
 $('.air-pod-content').hide();
 $('.bxs-x-circle').hide();
 
-$('.btn').on('click', function() {
-  $('.air-pod-content').fadeToggle(100);
-  $('.images-hide').fadeToggle(100); 
-  $('.bxs-plus-circle').toggle(); 
-  $('.bxs-x-circle').toggle(); 
-});
+$('.airpod-button').on('click',function(){
+  $($(this).attr("for")).toggle();
+})
