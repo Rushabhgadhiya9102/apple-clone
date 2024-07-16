@@ -61,3 +61,12 @@ $('.bxs-x-circle').hide();
 $('.airpod-button').on('click',function(){
   $($(this).attr("for")).toggle();
 })
+
+
+
+
+$(function() {
+  $('.selector').animatedHeadline({
+      animationType: 'scale'
+  });
+})
