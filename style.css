@@ -304,7 +304,7 @@ table{
 .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 100px;
+  height: 250px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -342,4 +342,8 @@ table{
   width: 250px;
 }
 
+.slide img{
+  width: 250px;
+  height: 200px;
+}
 /* -------------- E N T E R T A I N M E N T - S L I D E R - 1 - E N D --------------- */
