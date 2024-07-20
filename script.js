@@ -1,10 +1,13 @@
-
 // --------------------- N A V I G A T I O N ------------------------
 
-$("#home-page,#store,#ipad-section,#mac-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section").hide();
+$(
+  "#home-page,#store,#ipad-section,#mac-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section"
+).hide();
 
 $(".nav-link").on("click", function () {
-  $("#home-page,#store,#mac-section,#ipad-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section,#accessories-section").hide();
+  $(
+    "#home-page,#store,#mac-section,#ipad-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section,#accessories-section"
+  ).hide();
   $($(this).attr("href")).show();
 });
 
@@ -24,7 +27,6 @@ $(".mac-accor").on("click", function () {
   $("#mac-accor-1, #mac-accor-2, #mac-accor-3").hide();
   $($(this).attr("for")).show();
 });
-
 
 // ------------------ I P A D - S E C T I O N -------------
 
@@ -48,38 +50,36 @@ $(".iphone-accor").on("click", function () {
 
 $("#watch-accor-2").hide();
 
-$(".watch-accor").on("click",function () {
+$(".watch-accor").on("click", function () {
   $("#watch-accor-1, #watch-accor-2").hide();
   $($(this).attr("for")).show();
-})
+});
 
 // -------------- A I R P O D S - C A R O U S E L ---------------
 
-$('.air-pod-content, .bxs-x-circle').hide();
-$('.airpod-button').on('click',function(){
+$(".air-pod-content, .bxs-x-circle").hide();
+$(".airpod-button").on("click", function () {
   $($(this).attr("for")).toggle();
-})
-
+});
 
 // ---------------------- A C C E S S O R I E S - P R O D U C T - S E C T I O N ------------------
 
-$('#accessories-category').hide();
-$('.accessories-btn').on('click',function(){
-  $('#accessories-product, #accessories-category').hide();
-  $($(this).attr('href')).show();
-})
+$("#accessories-category").hide();
+$(".accessories-btn").on("click", function () {
+  $("#accessories-product, #accessories-category").hide();
+  $($(this).attr("href")).show();
+});
 
-
-$('#show-more-category, .show-less').hide();
-$('.show-all-btn').on('click',function(){
-  $('#show-more-category, .show-less, .show-more').slideToggle();
-})
+$("#show-more-category, .show-less").hide();
+$(".show-all-btn").on("click", function () {
+  $("#show-more-category, .show-less, .show-more").slideToggle();
+});
 
 // ------------------ T V & H O M E - T E X T - A N I M A T I O N -------------------
 
 const elts = {
   text1: document.getElementById("text1"),
-  text2: document.getElementById("text2")
+  text2: document.getElementById("text2"),
 };
 
 const texts = [
@@ -106,8 +106,8 @@ function doMorph() {
   let fraction = morph / morphTime;
 
   if (fraction > 1) {
-      cooldown = cooldownTime;
-      fraction = 1;
+    cooldown = cooldownTime;
+    fraction = 1;
   }
 
   setMorph(fraction);
@@ -146,13 +146,13 @@ function animate() {
   cooldown -= dt;
 
   if (cooldown <= 0) {
-      if (shouldIncrementIndex) {
-          textIndex++;
-      }
+    if (shouldIncrementIndex) {
+      textIndex++;
+    }
 
-      doMorph();
+    doMorph();
   } else {
-      doCooldown();
+    doCooldown();
   }
 }
 
