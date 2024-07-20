@@ -62,6 +62,21 @@ $('.airpod-button').on('click',function(){
   $($(this).attr("for")).toggle();
 })
 
+
+// ---------------------- A C C E S S O R I E S - P R O D U C T - S E C T I O N ------------------
+
+$('#accessories-category').hide();
+$('.accessories-btn').on('click',function(){
+  $('#accessories-product, #accessories-category').hide();
+  $($(this).attr('href')).show();
+})
+
+
+$('#show-more-category, .show-less').hide();
+$('.show-all-btn').on('click',function(){
+  $('#show-more-category, .show-less, .show-more').slideToggle();
+})
+
 // ------------------ T V & H O M E - T E X T - A N I M A T I O N -------------------
 
 const elts = {
