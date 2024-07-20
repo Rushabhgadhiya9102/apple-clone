@@ -1,10 +1,10 @@
 
 // --------------------- N A V I G A T I O N ------------------------
 
-$("#home-page,#store,#ipad-section,#mac-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section").hide();
+$("#home-page,#store,#ipad-section,#mac-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section").hide();
 
 $(".nav-link").on("click", function () {
-  $("#home-page,#store,#mac-section,#ipad-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section").hide();
+  $("#home-page,#store,#mac-section,#ipad-section,#iphone-section,#watch-section,#airpods-section,#tv-and-home-section,#entertainment-section,#accessories-section").hide();
   $($(this).attr("href")).show();
 });
 
